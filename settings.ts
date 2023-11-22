@@ -1,3 +1,3 @@
-export const subdomain = 'restaurant';
-export const GitHubHandle = 'vroegop';
+export const subdomain = 'rickstaurant';
+export const GitHubHandle = 'TheFluyter';
 export const GitHubRepo = 'conf-cdk-restaurant';
