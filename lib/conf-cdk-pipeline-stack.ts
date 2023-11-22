@@ -4,6 +4,7 @@ import { CodePipeline, CodePipelineSource, ShellStep } from 'aws-cdk-lib/pipelin
 import {ConfCdkRestaurantFrontendStack} from "./conf-cdk-restaurant-frontend-stack";
 import {ConfCdkRestaurantGlobalStack} from "./conf-cdk-restaurant.global-stack";
 import {GitHubHandle, GitHubRepo, subdomain} from '../settings';
+import {ConfCdkRestaurantEventApiStack} from "./conf-cdk-restaurant-event-api-stack";
 
 export class ConfCdkPipeline extends cdk.Stack {
     public subdomain: string;

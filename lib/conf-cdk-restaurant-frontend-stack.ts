@@ -12,8 +12,7 @@ import {LambdaRestApi} from "aws-cdk-lib/aws-apigateway";
 
 interface ConfCdkRestaurantFrontendProps extends StackProps {
     confCdkRestaurantDistributionCertificate: Certificate;
-    // Todo: uncomment this property when we have an event api
-    // eventApi: LambdaRestApi;
+    eventApi: LambdaRestApi;
 }
 
 export class ConfCdkRestaurantFrontendStack extends Stack {
